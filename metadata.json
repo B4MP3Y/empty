@@ -1,0 +1,6 @@
+{
+  "name": "PulseBank Login Study",
+  "description": "Educational clone of a banking login page to study form submissions and API integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
