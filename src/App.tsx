@@ -6,7 +6,7 @@
 import React, { useState } from 'react';
 
 export default function App() {
-  const [cpf, setCpf] = useState('❌ Ops! Estamos passando por uma manutenção no momento. Nossos sistemas estão temporariamente indisponíveis para garantir melhorias. Tente novamente mais tarde.');
+  const [cpf, setCpf] = useState('');
   const [password, setPassword] = useState('');
   const [status, setStatus] = useState('');
 
